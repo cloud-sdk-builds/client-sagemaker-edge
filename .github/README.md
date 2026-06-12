@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-sagemaker-edge`](https://www.npmjs.com/package/@aws-sdk/client-sagemaker-edge/v/3.1067.0).
+[`@aws-sdk/client-sagemaker-edge`](https://www.npmjs.com/package/@aws-sdk/client-sagemaker-edge/v/3.1068.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-sagemaker-edge - [https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-edge](https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-edge)
-- @aws-sdk/client-sagemaker-edge v3.1067.0 - [https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-edge&version=3.1067.0](https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-edge&version=3.1067.0)
+- @aws-sdk/client-sagemaker-edge v3.1068.0 - [https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-edge&version=3.1068.0](https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-edge&version=3.1068.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1067.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1068.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-D6tK1PxgbKXcw8EP7JilqNUyYrtm207WKj2eEoNTuGyO6INsOtJoMZGJ6gIgWsNf
+sha384-ijLEBX4N86g16VGWL+2a4lKVdxrz78gK59BT3waHmSYe+cBgFlx1px8TSIu2enpv
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-sagemaker-edge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1067.0/index.min.mjs"
+            "@aws-sdk/client-sagemaker-edge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1068.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1067.0/index.min.mjs": "sha384-D6tK1PxgbKXcw8EP7JilqNUyYrtm207WKj2eEoNTuGyO6INsOtJoMZGJ6gIgWsNf"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1068.0/index.min.mjs": "sha384-ijLEBX4N86g16VGWL+2a4lKVdxrz78gK59BT3waHmSYe+cBgFlx1px8TSIu2enpv"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-sagemaker-edge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1067.0/index.min.mjs"
+                        "@aws-sdk/client-sagemaker-edge": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1068.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1067.0/index.min.mjs": "sha384-D6tK1PxgbKXcw8EP7JilqNUyYrtm207WKj2eEoNTuGyO6INsOtJoMZGJ6gIgWsNf"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-edge@3.1068.0/index.min.mjs": "sha384-ijLEBX4N86g16VGWL+2a4lKVdxrz78gK59BT3waHmSYe+cBgFlx1px8TSIu2enpv"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1067.0`)
+* Always pin to a specific version (`@3.1068.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-sagemaker-edge/blob/refs/tags/3.1067.0/LICENSE
+https://github.com/cloud-sdk-builds/client-sagemaker-edge/blob/refs/tags/3.1068.0/LICENSE
 ```
 
 ---
